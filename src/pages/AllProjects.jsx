@@ -269,7 +269,7 @@ function AllProjects(){
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
         >
           <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
             <img src={item.img} className="h-56" />
@@ -286,7 +286,7 @@ function AllProjects(){
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
         >
           <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
             <img src={item.img} className="h-56" />
@@ -302,7 +302,7 @@ function AllProjects(){
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
         >
           <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
             <img src={item.img} className="h-56" />
@@ -338,7 +338,7 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
         >
           <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
             <img src={item.img} className="h-56" />
@@ -354,7 +354,7 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
         >
           <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
             <img src={item.img} className="h-56" />
@@ -370,7 +370,7 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
         >
           <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
             <img src={item.img} className="h-56" />
