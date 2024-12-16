@@ -60,7 +60,7 @@ function About(){
                 className="float-start  mx-auto rounded-xl  w-full h-fit"
                 src={img3}
                 />
-                <div className="absolute mt-28 p-5 md:mt-28 w-full text-balance text-white">
+                <div className="absolute mt-16 p-5 md:mt-28 w-full text-balance text-white">
                 <h1 className="font-bold text-2xl ">Values</h1>
                 <h1 className=" mt-2 font-semibold text-sm md:text-xl md:text-wrap md:mb-0 mb-10">At Dharma Tech Solution, our values guide every step of our journey. We are committed to innovation, client satisfaction, and delivering excellence in every project we undertake. By fostering trust, transparency, and a passion for creativity, we ensure that our solutions not only meet but exceed expectations, creating lasting relationships with our clients</h1>
             </div>

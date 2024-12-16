@@ -94,7 +94,7 @@ Meet The Team
                     />
                   </div>
                 </div>
-                <div className=" p-1 md:p-5 shadow-md rounded-xl w-full">
+                <div className=" p-1 md:p-5 md:h-auto h-36 shadow-md rounded-xl w-full">
                 <h4 className="text-sm md:text-xl font-bold text-center">
                   {item.name}
                 </h4>
