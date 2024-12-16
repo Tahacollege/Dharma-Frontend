@@ -83,7 +83,7 @@ return (
         </div> */}
         <div>
           <div className="mt-10 grid grid-cols-2 md:grid-cols-4 h-auto justify-between p-10 gap-1">
-            <div className="bg-card mx-auto p-6 rounded-lg shadow-lg  sm:w-1/2 md:w-1/3 lg:w-4/5">
+            <div className="bg-card mx-auto p-4 rounded-lg shadow-lg  sm:w-1/2 md:w-1/3 lg:w-4/5">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">1K</h2>
               <p className="font-bold md:text-xl mt-2 text-xs mb-2 text-nowrap">Satisfied Clients</p>
               <p className="text-xs">
