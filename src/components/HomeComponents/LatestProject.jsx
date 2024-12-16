@@ -159,20 +159,20 @@ function LatestPorject() {
   const change=(id)=>{
 if(id==1){
   setDiv(
-    <div className=" flex flex-col md:flex-row  max-w-[1250px] overflow-y-auto p-0 md:p-6 w-full   mt-6">
+    <div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6">
         {arrWeb.map((item, index) => {
           return (
             <div
-            onClick={()=>redirect(item.link)}
-              key={index}
-              className="min-w-64  w-[240px] ml-5 mt-3  p-4 bg-white rounded-2xl cursor-pointer"
-            >
-              <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-                <img src={item.img} className="h-56" />
-              </div>
-              <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-              <h2 className="text-[10px] mt-2">{item.discription}</h2>
-            </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-0 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
           );
         })}
       </div>
@@ -181,20 +181,20 @@ if(id==1){
 
 if(id==2){
   setDiv(
-    <div className=" flex flex-col md:flex-row  max-w-[1250px] overflow-y-auto p-0 md:p-6 w-full  mt-6">
+    <div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6">
         {arrApp.map((item, index) => {
           return (
             <div
-            onClick={()=>redirect(item.link)}
-              key={index}
-              className="min-w-64 w-[240px] ml-5 mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-            >
-              <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 place-items-center">
-                <img src={item.img} className="h-48" />
-              </div>
-              <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-              <h2 className="text-[10px] mt-2">{item.discription}</h2>
-            </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-0 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
           );
         })}
       </div>
@@ -203,20 +203,20 @@ if(id==2){
 
 if(id==3){
   setDiv(
-    <div className=" flex flex-col md:flex-row  max-w-[1250px] overflow-y-auto p-0 md:p-6 w-full  mt-6">
+    <div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6">
         {arrERP.map((item, index) => {
           return (
             <div
-            onClick={()=>redirect(item.link)}
-              key={index}
-              className="min-w-64 w-[240px] ml-5 mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-            >
-              <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 place-items-center">
-                <img src={item.img} className="h-48" />
-              </div>
-              <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-              <h2 className="text-[10px] mt-2">{item.discription}</h2>
-            </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-0 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
           );
         })}
       </div>
@@ -225,20 +225,20 @@ if(id==3){
 
 if(id==4){
   setDiv(
-    <div className=" flex flex-col md:flex-row  max-w-[1250px] overflow-y-auto p-0 md:p-6 w-full  mt-6">
+    <div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6">
         {arrCRM.map((item, index) => {
           return (
             <div
-            onClick={()=>redirect(item.link)}
-              key={index}
-              className="min-w-64 w-[240px] ml-5 mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-            >
-              <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 place-items-center">
-                <img src={item.img} className="h-48" />
-              </div>
-              <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-              <h2 className="text-[10px] mt-2">{item.discription}</h2>
-            </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-0 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
           );
         })}
       </div>
@@ -249,16 +249,16 @@ if(id==5){
   window.scrollTo(0, 0);
 }
   }
-  const [divs,setDiv]=useState(<div className=" flex flex-col md:flex-row  max-w-[1250px] overflow-y-auto p-0 md:p-6 w-full  mt-6">
+  const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px]  overflow-y-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6">
     {arrWeb.map((item, index) => {
       return (
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] ml-5 mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-0 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 place-items-center">
-            <img src={item.img} className="h-48" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -267,7 +267,7 @@ if(id==5){
     })}
   </div>)
   return (
-    <div className="p-8 bg-[#EDF2FF]">
+    <div className="p-2 md:mt-0 mt-10 md:p-8 bg-[#EDF2FF]">
       <h3 className="text-lg font-semibold text-[#0040FF] text-start md:text-center mb-3">
         Latest Project
       </h3>
@@ -279,21 +279,21 @@ if(id==5){
           Available Into Market
         </h3>
       </div>
-      <div className="border-2 border-solid border-slate-950  rounded-md p-3 w-fit mx-auto flex-wrap flex items-center justify-center">
-        <div onClick={()=>change(1)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+      <div className="border-2 border-solid border-slate-950  rounded-md p-0 md:p-3 w-fit mx-auto flex-nowrap  md:flex-wrap flex items-center justify-center">
+        <div onClick={()=>change(1)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           {" "}
           Web Development
         </div>
-        <div onClick={()=>change(2)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(2)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           App Development
         </div>
-        <div onClick={()=>change(3)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(3)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           ERP
         </div>
-        <div onClick={()=>change(4)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(4)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           CRM
         </div>
-        <div onClick={()=>change(5)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(5)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           All Projects
         </div>
       </div>

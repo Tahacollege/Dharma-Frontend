@@ -161,20 +161,20 @@ function AllProjects(){
       const change=(id)=>{
     if(id==1){
       setDiv(
-        <div className=" flex flex-col md:flex-row mx-auto md:space-y-3 space-y-10 gap-1 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full  mt-6">
+        <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrWeb.map((item, index) => {
               return (
                 <div
-                onClick={()=>redirect(item.link)}
-                  key={index}
-                  className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-                >
-                  <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-                    <img src={item.img} className="h-56" />
-                  </div>
-                  <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-                  <h2 className="text-[10px] mt-2">{item.discription}</h2>
-                </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-64 w-[240px] mx-auto mt-10 md:h-full h-80 md:mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 md:h-52 place-items-center">
+            <img src={item.img} className="h-48 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
               );
             })}
           </div>
@@ -183,20 +183,20 @@ function AllProjects(){
     
     if(id==2){
       setDiv(
-        <div className=" flex flex-col md:flex-row mx-auto gap-1 md:gap-10 md:space-y-3 space-y-10   max-w-[1250px] overflow-y-auto p-6 w-full  mt-6">
+        <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrApp.map((item, index) => {
               return (
                 <div
-                onClick={()=>redirect(item.link)}
-                  key={index}
-                  className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-                >
-                  <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-                    <img src={item.img} className="h-56" />
-                  </div>
-                  <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-                  <h2 className="text-[10px] mt-2">{item.discription}</h2>
-                </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-64 w-[240px] mx-auto mt-10 md:h-full h-80 md:mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 md:h-52 place-items-center">
+            <img src={item.img} className="h-48 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
               );
             })}
           </div>
@@ -205,20 +205,20 @@ function AllProjects(){
     
     if(id==3){
       setDiv(
-        <div className=" flex flex-col md:flex-row mx-auto md:space-y-3 space-y-10 gap-1 md:gap-10   max-w-[1250px] overflow-y-auto p-6 w-full  mt-6">
+        <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrERP.map((item, index) => {
               return (
                 <div
-                onClick={()=>redirect(item.link)}
-                  key={index}
-                  className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-                >
-                  <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-                    <img src={item.img} className="h-56" />
-                  </div>
-                  <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-                  <h2 className="text-[10px] mt-2">{item.discription}</h2>
-                </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-64 w-[240px] mx-auto mt-10 md:h-full h-80 md:mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 md:h-52 place-items-center">
+            <img src={item.img} className="h-48 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
               );
             })}
           </div>
@@ -227,20 +227,20 @@ function AllProjects(){
     
     if(id==4){
       setDiv(
-        <div className=" flex flex-col md:flex-row md:space-y-3 mx-auto space-y-10 gap-1 md:gap-10 max-w-[1250px] overflow-y-auto p-6 w-full  mt-6">
+        <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrCRM.map((item, index) => {
               return (
                 <div
-                onClick={()=>redirect(item.link)}
-                  key={index}
-                  className="min-w-64 w-[240px] mx-auto mt-3 p-4 bg-white rounded-2xl cursor-pointer"
-                >
-                  <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-                    <img src={item.img} className="h-56" />
-                  </div>
-                  <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-                  <h2 className="text-[10px] mt-2">{item.discription}</h2>
-                </div>
+        onClick={()=>redirect(item.link)}
+          key={index}
+          className="min-w-64 w-[240px] mx-auto mt-10 md:h-full h-80 md:mt-3 p-4 bg-white rounded-2xl cursor-pointer"
+        >
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-52 md:h-52 place-items-center">
+            <img src={item.img} className="h-48 md:h-48" />
+          </div>
+          <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
+          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+        </div>
               );
             })}
           </div>
@@ -248,16 +248,16 @@ function AllProjects(){
     }
     if(id==5){
         setDiv(
-<div className=" grid grid-cols-1  md:grid-cols-4  p-6 w-full  mt-6">
+<div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden overflow-x-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6 mx-auto ">
     {arrWeb.map((item, index) => {
       return (
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full ml-2 md:min-w-64 w-20 md:w-[240px]  md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -269,10 +269,10 @@ function AllProjects(){
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -286,10 +286,10 @@ function AllProjects(){
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -302,10 +302,10 @@ function AllProjects(){
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -317,16 +317,16 @@ function AllProjects(){
         )
     }
 }
-const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p-6  w-full  mt-6">
+const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden overflow-x-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6 mx-auto">
     {arrWeb.map((item, index) => {
       return (
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full mx-auto md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -338,10 +338,10 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full mx-auto md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -354,10 +354,10 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full mx-auto md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -370,10 +370,10 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-1  md:grid-cols-4 p
         <div
         onClick={()=>redirect(item.link)}
           key={index}
-          className="min-w-64 w-[240px] mx-auto mt-3 p-4 mb-5 bg-white rounded-2xl cursor-pointer"
+          className="min-w-40 md:h-full mx-auto md:min-w-64 w-20 md:w-[240px] ml-2 md:ml-5 mt-3 p-2 md:p-4 bg-white rounded-2xl cursor-pointer"
         >
-          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-60 place-items-center">
-            <img src={item.img} className="h-56" />
+          <div className="bg-[#d7d9df9e] p-2 rounded-2xl grid h-42 md:h-52 place-items-center">
+            <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
           <h2 className="text-[10px] mt-2">{item.discription}</h2>
@@ -394,21 +394,21 @@ return(
 
         </div>
     <div className="p-5">
-        <div className="border-2 border-solid border-slate-950  rounded-md p-3 mt-5 mx-auto flex-wrap flex items-center justify-center">
-        <div onClick={()=>change(1)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+    <div className="border-2 border-solid border-slate-950  rounded-md p-0 md:p-3 w-fit mx-auto flex-nowrap  md:flex-wrap flex items-center justify-center">
+        <div onClick={()=>change(1)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           {" "}
           Web Development
         </div>
-        <div onClick={()=>change(2)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(2)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           App Development
         </div>
-        <div onClick={()=>change(3)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(3)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           ERP
         </div>
-        <div onClick={()=>change(4)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(4)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           CRM
         </div>
-        <div onClick={()=>change(5)} className="hover:bg-black text-black font-semibold cursor-pointer hover:text-white p-3 ml-2 md:ml-9 rounded-3xl">
+        <div onClick={()=>change(5)} className="hover:bg-black text-black font-semibold text-xs md:text-sm cursor-pointer hover:text-white p-1 md:my-0 my-2 md:p-3 ml-2 md:ml-9 rounded-3xl">
           All Projects
         </div>
       </div>

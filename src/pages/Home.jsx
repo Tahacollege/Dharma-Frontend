@@ -39,8 +39,8 @@ return (
       
         <div className="overflow-hidden">
           <div className="bg-background-3 w-full h-[450px] bg-center bg-cover "></div>
-          <div className="w-full h-full  -mt-80 md:-mt-64 flex justify-start md:justify-center p-3 md:p-0  ">
-          <div className="w-full md:w-[870px] bg-inherit   h-full md:h-[450px]   border-2 flex flex-col items-center justify-center  border-slate-900 rounded-full ">
+          <div className="w-full h-full  -mt-80 md:-mt-64 flex md:justify-center p-3 md:p-0  ">
+          <div className="w-full md:w-[870px] bg-inherit   h-full md:h-[450px]   border-2 flex flex-col items-start justify-start md:items-center md:justify-center md:-ml-0 -ml-2  border-slate-900 rounded-r-full md:rounded-full ">
           <div className="flex  justify-center mt-2">
                   <span className="flex  text-xs text-muted-foreground">
                     <img src={MemberImg} alt="" className="mr-2 w-12" /> 510+
@@ -50,8 +50,8 @@ return (
                 </div>
                 <h1 className="font-sans font-bold text-nowrap text-3xl md:text-6xl">Shaping Digital</h1>
                 <h1 className="font-sans font-bold text-nowrap text-3xl md:text-6xl mt-2">Futures <span className="text-[#3B5EE9]">Together</span></h1>
-                <h1 className="text-xs mt-5 text-center">Empowering Businesses with Scalable, Future-Ready Web, App, ERP, & CRM Solutions – Crafted for </h1>
-                  <h1 className="text-xs text-center"> Excellence and Designed to Drive Results in a Dynamic Digital Landscape.</h1>
+                <h1 className="text-xs mt-5 text-justify mr-5 mt-2 md:text-center">Empowering Businesses with Scalable, Future-Ready Web, App, ERP, & CRM Solutions – Crafted for </h1>
+                  <h1 className="text-xs text-justify mr-5 mt-2 md:text-center"> Excellence and Designed to Drive Results in a Dynamic Digital Landscape.</h1>
                   <button className="bg-black text-white px-4 py-1 mt-3 text-sm rounded-md mb-2" onClick={()=>redirect(4)}>Explore Our Work</button>
             </div>
             </div>

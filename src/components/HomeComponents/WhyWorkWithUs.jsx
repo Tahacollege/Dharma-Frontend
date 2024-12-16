@@ -2,7 +2,7 @@ import DTSLOGO from "../../assets/ImageAndIcons/dtslogo.png"
 import Blackbanner from "./Blackbanner"
 function WhyWorkWithUs(){
 return(
-    <div className="p-8 bg-[#EDF2FF] -mt-10 ">
+    <div className="p-8 bg-[#EDF2FF] mt-10 ">
         <h3 className="text-lg font-semibold text-[#0040FF] text-left ml-14 md:text-center mb-3">Why Work With</h3>
         <h3 className="text-3xl font-bold text-center mt-3">
               Dharma Tech Solution? 

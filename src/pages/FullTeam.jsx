@@ -67,20 +67,20 @@ function FullTeam(){
 
     ]
     return (
-<div className="mt-10">
-<h2 className="text-lg font-semibold text-[#0040FF] text-center mb-3">
+<div className="mt-10 p-5">
+<h2 className="text-lg font-semibold text-[#0040FF]  text-start md:text-center mb-3">
 Meet The Team
             </h2>
             <div className="text-center">
-            <h3 className="text-3xl font-bold text-center mb-8">
+            <h3 className="text-xl md:text-3xl font-bold  text-start md:text-center mb-8">
             Bringing Together Passionate Minds and Exceptional 
             </h3>
-            <h3 className="text-3xl -mt-5 font-bold text-center mb-8">
+            <h3 className="text-xl md:text-3xl -mt-5 font-bold  text-start md:text-center mb-8">
             Skills to Deliver Excellence
             </h3>
             </div>
             
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+            <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 ">
                 {
                     arr.map((item,index)=>{
                         return(
@@ -90,18 +90,18 @@ Meet The Team
                     <img
                       alt="web-development-icon"
                       src={item.img}
-                      className="w-52 h-52 rounded-full"
+                      className="w-20 md:w-52 h-20 md:h-52 rounded-full"
                     />
                   </div>
                 </div>
-                <div className=" p-5 shadow-md rounded-xl w-full">
-                <h4 className="text-xl font-bold text-center">
+                <div className=" p-1 md:p-5 shadow-md rounded-xl w-full">
+                <h4 className="text-sm md:text-xl font-bold text-center">
                   {item.name}
                 </h4>
-                <p className="mt-2 text-xs text-[#0040FF] font-semibold text-center">
+                <p className="mt-2 text-[8px] md:text-xs text-[#0040FF] font-semibold text-center">
                 {item.post}
                 </p>
-                <p className="mt-2 text-xs text-slate-600 text-center">
+                <p className="mt-2 text-[8px] md:text-xs text-slate-600 text-center">
                 {item.discri}
                 </p>
                
