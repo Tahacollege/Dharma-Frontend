@@ -173,7 +173,7 @@ function AllProjects(){
             <img src={item.img} className="h-48 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2 overflow-clip">{item.discription}</h2>
         </div>
               );
             })}
