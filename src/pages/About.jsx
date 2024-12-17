@@ -10,7 +10,7 @@ function About(){
     
     return(
        <div className="p-5">
-        <div className="p-8 w-full border-2 border-slate-900 rounded-lg h-96 md:h-[640px] bg-cover bg-center bg-background-1 ">
+        <div className="p-8 w-full border-2 border-slate-900 rounded-lg h-96 md:h-[640px] bg-cover bg-center bg-[url('/backgroundImages/aboutusbg.png')] ">
         <div className= "mt-48 w-full md:w-1/2">
         <h1 className="font-bold text-white text-3xl">About Us</h1>
         <h1 className=" text-white md:hidden block mt-2 text-sm md:text-lg text-wrap">Inovating Today, Shinning Tomorrow</h1>

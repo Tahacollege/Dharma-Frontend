@@ -396,7 +396,7 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-col
   </div>)
 return(
     <div>
-        <div className="bg-background-4 w-full h-[750px] bg-center bg-cover flex items-center">
+        <div className="bg-[url('/backgroundImages/allprojectbg.png')] w-full h-[750px] bg-center bg-cover flex items-center">
             <div className="text-white p-10">
                 <h1 className="font-bold text-4xl">Discover Our Expertise in Action</h1>
                 <h1 className="mt-2">Explore all our projects and see how Dharma Tech Solution has delivered</h1>

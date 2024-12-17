@@ -10,7 +10,7 @@ function Services(){
     }
     return (
         <div className="p-5">
-            <div className="p-8 w-full  rounded-lg h-[640px] bg-cover bg-center bg-background-5 ">
+            <div className="p-8 w-full  rounded-lg h-[640px] bg-cover bg-center bg-[url('/backgroundImages/services.png')] ">
         <div className= "mt-48 w-full md:w-1/2 ml-2 md:ml-10">
         <h1 className="font-bold text-black md:text-white text-xl md:text-5xl">Empowering Your Vision with </h1>
             <h1 className="font-bold text-black md:text-white text-xl md:text-5xl mt-2">Expert Solutions</h1>

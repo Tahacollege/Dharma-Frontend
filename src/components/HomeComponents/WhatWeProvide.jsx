@@ -20,7 +20,7 @@ return(
             </h3>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 ">
-              <div className="bg-[#002699] mx-auto text-white p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
+              <div className="bg-white hover:bg-[#002699] mx-auto hover:text-white p-2 md:p-5 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
                 <div className="flex items-center mb-0 md:mb-4">
                   <div className="flex justify-center items-center bg-white rounded-full p-3 ml-auto">
                     <img
@@ -40,7 +40,7 @@ return(
                 </p>
               </div>
 
-              <div className="bg-white mx-auto p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
+              <div className="bg-white hover:bg-[#002699] mx-auto hover:text-white  p-2 md:p-5 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
                 <div className="flex items-center mb-0 md:mb-4">
                   <div className="flex justify-center  items-center bg-[#002699] rounded-full p-3 ml-auto">
                     <img
@@ -53,15 +53,15 @@ return(
                 <h4 className="text-xl md:text-3xl font-bold">
                   App <br /> Development
                 </h4>
-                <p className="mt-2">
+                <p className="mt-2 ">
                   Dharma Tech Solution builds user-friendly iOS and Android apps
                   that offer seamless performance and unique features tailored
                   for every business.
                 </p>
               </div>
 
-              <div className="bg-white mx-auto p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
-                <div className="flex items-center mb-4">
+              <div className="bg-white hover:bg-[#002699] mx-auto hover:text-white p-2 md:p-5 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
+                <div className="flex items-center mb-0 md:mb-4">
                   <div className="flex justify-center items-center bg-[#002699] rounded-full p-3 ml-auto">
                     <img
                       alt="ui-ux-design-icon"
@@ -80,8 +80,8 @@ return(
                 </p>
               </div>
 
-              <div className="bg-white mx-auto p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
-                <div className="flex items-center mb-4">
+              <div className="bg-white hover:bg-[#002699] mx-auto hover:text-white p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
+                <div className="flex items-center mb-0 md:mb-4">
                   <div className="flex justify-center items-center bg-[#002699] rounded-full p-3 ml-auto">
                     <img
                       alt="erp-development-icon"
@@ -100,8 +100,8 @@ return(
                 </p>
               </div>
 
-              <div className="bg-white mx-auto p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
-                <div className="flex items-center mb-4">
+              <div className="bg-white hover:bg-[#002699] mx-auto hover:text-white p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
+                <div className="flex items-center mb-0 md:mb-4">
                   <div className="flex justify-center items-center bg-[#002699] rounded-full p-3 ml-auto">
                     <img
                       alt="crm-development-icon"
@@ -120,8 +120,8 @@ return(
                 </p>
               </div>
 
-              <div className="bg-white mx-auto p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
-                <div className="flex items-center mb-4">
+              <div className="bg-white hover:bg-[#002699] mx-auto hover:text-white p-2 md:p-6 rounded-lg shadow-md max-h-max  md:h-auto max-w-xs">
+                <div className="flex items-center mb-0 md:mb-4">
                   <div className="flex justify-center items-center bg-[#002699] rounded-full p-3 ml-auto">
                     <img
                       alt="ecommerce-solution-icon"

@@ -1,4 +1,3 @@
-
 import MemberImg from "../assets/ImageAndIcons/member.png";
 import WhatWeProvide from "../components/HomeComponents/WhatWeProvide";
 import LatestPorject from "../components/HomeComponents/LatestProject";
@@ -38,20 +37,19 @@ return (
     <>
       
         <div className="overflow-hidden">
-          <div className="bg-background-3 w-full h-[450px] bg-center bg-cover "></div>
-          <div className="w-full h-full  -mt-80 md:-mt-64 flex md:justify-center p-3 md:p-0  ">
-          <div className="w-full md:w-[870px] bg-inherit   h-full md:h-[450px]   border-2 flex flex-col items-start justify-start md:items-center md:justify-center md:-ml-0 -ml-2  border-slate-900 rounded-r-full md:rounded-full ">
+          <div className="bg-[url('/backgroundImages/homeIMG.png')] w-full h-[450px] bg-center bg-cover "></div>
+          <div className="w-full h-full  -mt-[335px] md:-mt-64 flex md:justify-center p-3 md:p-0  ">
+          <div className="w-full md:w-[870px] bg-inherit backdrop-blur-sm h-full md:h-[450px] md:p-0 p-3  border-2 flex flex-col items-start justify-start md:items-center md:justify-center md:-ml-0 -ml-2  border-slate-900 rounded-r-full md:rounded-full ">
           <div className="flex  justify-center mt-2">
                   <span className="flex  text-xs text-muted-foreground">
-                    <img src={MemberImg} alt="" className="mr-2 w-12" /> 510+
-                    Trusted Members
+                    <img src={MemberImg} alt="" className="mr-2 w-12 " /> <span className="md:text-black text-white ">510+ Trusted Members</span>
                   </span>
                  
                 </div>
-                <h1 className="font-sans font-bold text-nowrap text-3xl md:text-6xl">Shaping Digital</h1>
-                <h1 className="font-sans font-bold text-nowrap text-3xl md:text-6xl mt-2">Futures <span className="text-[#3B5EE9]">Together</span></h1>
-                <h1 className="text-xs mt-5 text-justify mr-5 mt-2 md:text-center">Empowering Businesses with Scalable, Future-Ready Web, App, ERP, & CRM Solutions – Crafted for </h1>
-                  <h1 className="text-xs text-justify mr-5 mt-2 md:text-center"> Excellence and Designed to Drive Results in a Dynamic Digital Landscape.</h1>
+                <h1 className="font-sans font-bold text-nowrap text-3xl md:text-6xl md:text-black text-white">Shaping Digital</h1>
+                <h1 className="font-sans font-bold text-nowrap text-3xl md:text-6xl mt-2 md:text-black text-white">Futures <span className="text-[#3B5EE9]">Together</span></h1>
+                <h1 className="text-xs mt-5 text-justify mr-5 md:text-center md:text-black text-white">Empowering Businesses with Scalable, Future-Ready Web, App, ERP, & CRM Solutions – Crafted for </h1>
+                  <h1 className="text-xs text-justify mr-5 mt-2 md:text-center md:text-black text-white"> Excellence and Designed to Drive Results in a Dynamic Digital Landscape.</h1>
                   <button className="bg-black text-white px-4 py-1 mt-3 text-sm rounded-md mb-2" onClick={()=>redirect(4)}>Explore Our Work</button>
             </div>
             </div>
@@ -90,21 +88,21 @@ return (
                 Empowering over a thousand clients with reliable solutions.
               </p>
             </div>
-            <div className="bg-card mx-auto p-6 rounded-lg shadow-lg h-fit sm:w-1/2 md:w-1/3 lg:w-4/5">
+            <div className="bg-card mx-auto p-4 rounded-lg shadow-lg h-fit sm:w-1/2 md:w-1/3 lg:w-4/5">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">40+</h2>
               <p className="font-bold  md:text-xl mt-2 text-xs mb-2 text-nowrap">Successful Projects</p>
               <p className="text-xs">
                 Bringing expertise and dedication to every project we deliver.
               </p>
             </div>
-            <div className="bg-card mx-auto p-6 rounded-lg shadow-lg sm:w-1/2 md:w-1/3 lg:w-4/5">
+            <div className="bg-card mx-auto p-4 rounded-lg shadow-lg sm:w-1/2 md:w-1/3 lg:w-4/5">
               <h2 className="text-3xl md:text-5xl font-bold text-foreground">4+</h2>
               <p className="font-bold  md:text-xl mt-2 text-xs mb-2 ">Industry Awards Won</p>
               <p className="text-xs">
                 Proudly recognized for our excellence and innovation.
               </p>
             </div>
-            <div className="bg-card mx-auto p-6 rounded-lg shadow-lg h-fit sm:w-1/2 md:w-1/3 lg:w-4/5">
+            <div className="bg-card mx-auto p-4 rounded-lg shadow-lg h-fit sm:w-1/2 md:w-1/3 lg:w-4/5">
               <h2 className="text-3xl md:text-5xl font-bold text-foreground">10+</h2>
               <p className="font-bold  md:text-xl mt-2 text-xs mb-2 ">Skilled Experts on Team</p>
               <p className="text-xs ">
