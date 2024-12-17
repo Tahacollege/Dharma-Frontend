@@ -163,6 +163,7 @@ function AllProjects(){
       setDiv(
         <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrWeb.map((item, index) => {
+              var pr=item.discription
               return (
                 <div
         onClick={()=>redirect(item.link)}
@@ -173,7 +174,7 @@ function AllProjects(){
             <img src={item.img} className="h-48 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2 overflow-clip">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2 overflow-clip">{pr.slice(0,100)}...</h2>
         </div>
               );
             })}
@@ -185,6 +186,7 @@ function AllProjects(){
       setDiv(
         <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrApp.map((item, index) => {
+              var pr=item.discription
               return (
                 <div
         onClick={()=>redirect(item.link)}
@@ -195,7 +197,7 @@ function AllProjects(){
             <img src={item.img} className="h-48 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
               );
             })}
@@ -207,6 +209,7 @@ function AllProjects(){
       setDiv(
         <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrERP.map((item, index) => {
+              var pr=item.discription
               return (
                 <div
         onClick={()=>redirect(item.link)}
@@ -217,7 +220,7 @@ function AllProjects(){
             <img src={item.img} className="h-48 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
               );
             })}
@@ -229,6 +232,7 @@ function AllProjects(){
       setDiv(
         <div className=" flex flex-row md:flex-row mx-auto md:space-y-3 space-y-10 gap-3 md:gap-10  max-w-[1250px] overflow-y-auto p-6 w-full mt-0 md:mt-6">
             {arrCRM.map((item, index) => {
+              var pr=item.discription
               return (
                 <div
         onClick={()=>redirect(item.link)}
@@ -239,7 +243,7 @@ function AllProjects(){
             <img src={item.img} className="h-48 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
               );
             })}
@@ -250,6 +254,7 @@ function AllProjects(){
         setDiv(
 <div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden overflow-x-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6 mx-auto ">
     {arrWeb.map((item, index) => {
+      var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -260,11 +265,12 @@ function AllProjects(){
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
 {arrApp.map((item, index) => {
+  var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -275,13 +281,14 @@ function AllProjects(){
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
     
 
 {arrERP.map((item, index) => {
+  var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -292,12 +299,13 @@ function AllProjects(){
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
 
 {arrCRM.map((item, index) => {
+  var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -308,7 +316,7 @@ function AllProjects(){
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
@@ -319,6 +327,7 @@ function AllProjects(){
 }
 const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-cols-4 md:max-w-[1250px] overflow-y-hidden overflow-x-hidden md:overflow-y-auto p-0 md:p-6 w-full  mt-6 mx-auto">
     {arrWeb.map((item, index) => {
+      var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -329,11 +338,12 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-col
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
 {arrApp.map((item, index) => {
+  var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -344,12 +354,13 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-col
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
 
 {arrERP.map((item, index) => {
+  var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -360,12 +371,13 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-col
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
 
 {arrCRM.map((item, index) => {
+  var pr=item.discription
       return (
         <div
         onClick={()=>redirect(item.link)}
@@ -376,7 +388,7 @@ const [divs,setDiv]=useState(<div className=" grid grid-cols-2 gap-2 md:grid-col
             <img src={item.img} className="h-32 md:h-48" />
           </div>
           <h2 className="font-bold text-[12px] mt-2 " >{item.name}</h2>
-          <h2 className="text-[10px] mt-2">{item.discription}</h2>
+          <h2 className="text-[10px] mt-2">{pr.slice(0,100)}...</h2>
         </div>
       );
     })}
