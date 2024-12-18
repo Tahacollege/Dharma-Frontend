@@ -5,6 +5,7 @@ import SolarCRM from "../../assets/ImageAndIcons/solarCRmIMG.png";
 import Property from "../../assets/Property/property_project.png"
 import Fashion from "../../assets/Male_Fashion/man_fashion_project.png"
 import travelers from "../../assets/Fantacy_Travelers/fantacy_travelers_project.png"
+import delivergreen from '../../assets/DeliverGreen/mobile.png'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -68,11 +69,11 @@ function LatestPorject() {
   ];
   const arrApp = [
     {
-      img: Pawsitive,
-      name: "APP-Petcare - Premium Pet Essentials at Your Fingertips namna",
+      img: delivergreen,
+      name: "Deliver Green - Freshness Delivered to Your Doorstep",
       discription:
-        "find top-qualtiy food and arrivals for dogs,cats, and more - everything your pet needs in one place",
-        link:'/petcare'
+        "Experience fresh produce delivered straight to your home with just a few taps. Built to enhance user convenience and ensure quality, Deliver Green is your go-to solution for fruits and vegetables delivery",
+        link:'/delivergreen'
     },
     {
       img: UrbanStudio,

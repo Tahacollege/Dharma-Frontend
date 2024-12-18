@@ -14,6 +14,7 @@ import ContactUs from './pages/ContactUs';
 import HomeHorizons from './pages/HomeHorizons';
 import MetroMan from './pages/MetroMan';
 import VoyageVista from './pages/VoyageVista';
+import DeliverGreen from './pages/DeliverGreen';
 export default function Widget() {
   return (
     <Router>
@@ -32,6 +33,7 @@ export default function Widget() {
       <Route path="/homehorizons" element={<HomeHorizons/>} />
       <Route path="/metroman" element={<MetroMan/>} />
       <Route path="/voyagevista" element={<VoyageVista/>} />
+      <Route path="/delivergreen" element={<DeliverGreen/>} />
         </Routes>
         <Fotter />
     </Router>
